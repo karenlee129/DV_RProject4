@@ -8,16 +8,43 @@ output: html_document
 ### Data Frame
 ![](dataframe.jpg)
 
-## Variables
+## Global Economic Data
+"The Penn World table contains national income and purchasing power data for 189 countries and territories for available years between 1950 and 2009. The data has been converted into common currency and its updated on an annual basis. Funding for this research is provided by the National Science Foundation (NSF)."  
 
-#### Bar Chart
+
+#### Bar Chart (Low Consumption Percentage)
+![](bar chart 0.jpg)
+
+#### Bar Chart (High Consumption Percentage)
 ![](bar chart.jpg)
 
+* The average consumption percentage of GDP is 70% for 2009, the year after the stock market crash. 
+* Equatorial Guinea had a consumption percentage of 9.5% of their GDP, while Liberia had a percentage of 192.4%.  
+
 #### Scatter Plot (Low Population)
-![](scatter plot 1.jpg)
+![](scatter plot 1.jpg)  
+
+* The color ranged from red to green, 1950 to 2009 respectively. Using these colors, the visualizations depict the population and Real GDP growth rates over time.  
+* Italy, France, and Germany's population growth rates plateaued around the 1980s.  
+* Japan's Real GDP rate increased more significatly than any other country in this population range.  
+* Pakistan and Indonisia's population rate are continuing to grow, while their economies did not not expand as much as the other countries.  
 
 #### Scatter Plot (High Population)
-![](scatter plot 2.jpg)
+![](scatter plot 2.jpg) 
+
+* These countries were isolated from the other plot due to higher populations.  
+* India and China's Real GDP and population grew immensely in the 21st century.  
+* China's Real GDP has doubled in the past decade.  
 
 #### Cross Tab
-![](cross tab.jpg)
+![](cross tab.jpg)  
+
+* Real Gross Domestic Income of countries from 2001-2009.  
+* Low Key Performance Indicator (Real Gross Domestic Income) <= $1,930.22  
+* Medium Key Performance Indicator (Real Gross Domestic Income) <= $7108.52  
+* High Key Performance Indicator (Real Gross Domestic Income) > $7108.52  
+* Azerbaijan's real gross domestic income tripled in under a decade.  
+* Belarus' real gross domestic income doubled in under a decade.  
+
+Citation:
+https://app.enigma.io/table/edu.upenn.econ.pwt?row=0&col=30&page=1
