@@ -1,0 +1,23 @@
+---
+title: "DV_TProject1"
+author: "Ronly Leung, Karen Lee"
+date: "November 3, 2015"
+output: html_document
+---
+
+### Data Frame
+![](dataframe.jpg)
+
+## Variables
+
+#### Bar Chart
+![](bar chart.jpg)
+
+#### Scatter Plot (Low Population)
+![](scatter plot 1.jpg)
+
+#### Scatter Plot (High Population)
+![](scatter plot 2.jpg)
+
+#### Cross Tab
+![](cross tab.jpg)
