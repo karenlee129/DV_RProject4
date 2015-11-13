@@ -26,7 +26,6 @@ View(df)
 
 ggplot() + 
   coord_cartesian() + 
-  scale_x_discrete() +
   scale_y_discrete() +
   labs(title='KPI of Countries from 2001-2009') +
   labs(x=paste("Year"), y=paste("Country")) +
@@ -46,4 +45,6 @@ ggplot() +
         geom="tile",
         geom_params=list(alpha=0.50), 
         position=position_identity()
-  ) + theme(axis.ticks = element_blank(),axis.text.x = element_blank(), axis.text.y = element_blank())
+  ) 
+
+#+ theme(axis.ticks = element_blank(),axis.text.x = element_blank(), axis.text.y = element_blank())
