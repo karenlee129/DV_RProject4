@@ -12,7 +12,7 @@ output: html_document
 ![](ETL_SQL.jpg)
 
 ```{r tidy = TRUE}
-source("../01 Data/barchart.R", echo = TRUE)
+source("../01 Data/global_economics_ETL.R", echo = TRUE)
 ```
 
 ## Global Economic Data
