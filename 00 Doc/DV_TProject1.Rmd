@@ -106,13 +106,13 @@ source("../01 Data/cross_tab.R", echo = TRUE)
 ![](blended_data.jpg)
 
 ### Using R
+```{r tidy = TRUE}
+source("../01 Data/blended_data.R", echo = TRUE)
+```
 ![](blended_data_R.jpg)
 
 *The new columns start with "Country_Isocode"
 
-```{r tidy = TRUE}
-source("../01 Data/blended_data.R", echo = TRUE)
-```
 
 Citation:
 https://app.enigma.io/table/edu.upenn.econ.pwt?row=0&col=30&page=1
