@@ -9,11 +9,9 @@ output: html_document
 ![](dataframe.jpg)
 
 ### ETL.R
+![](ETL_R.jpg)
 ![](ETL_SQL.jpg)
 
-```{r tidy = TRUE}
-source("../01 Data/global_economics_ETL.R", echo = TRUE)
-```
 
 ## Global Economic Data
 "The Penn World table contains national income and purchasing power data for 189 countries and territories for available years between 1950 and 2009. The data has been converted into common currency and its updated on an annual basis. Funding for this research is provided by the National Science Foundation (NSF)."  
