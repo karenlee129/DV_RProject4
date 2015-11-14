@@ -8,25 +8,42 @@ output: html_document
 ### Data Frame
 ![](dataframe.jpg)
 
+### ETL.R
+![](ETL_SQL.jpg)
+
+```{r tidy = TRUE}
+source("../01 Data/barchart.R", echo = TRUE)
+```
+
 ## Global Economic Data
 "The Penn World table contains national income and purchasing power data for 189 countries and territories for available years between 1950 and 2009. The data has been converted into common currency and its updated on an annual basis. Funding for this research is provided by the National Science Foundation (NSF)."  
 
+##Bar Charts
 
-### Bar Chart (Low Consumption Percentage)
+### Using Tableau (Low Consumption Percentage)
 ![](bar chart 0.jpg)  
 
-### Bar Chart (High Consumption Percentage)
+### Using Tableau (High Consumption Percentage)
 ![](bar chart.jpg)
 
 * Columns: SUM(Consumption Percentage of Real GDP)  
 * Rows: Country  
 * Filters: Year: 2009  
-* Label: SUM(Consumption Percentage of Real GDP)  
+* Label: SUM(Consumption Percentage of Real GDP)
+
+**We created two bar charts in Tableau to capture both ends of the consumption percentages (high and low)
+
+### Using R
+
+```{r tidy = TRUE}
+source("../01 Data/barchart.R", echo = TRUE)
+```
 
 * The average consumption percentage of GDP is 70% for 2009, the year after the stock market crash. 
 * Equatorial Guinea had a consumption percentage of 9.5% of their GDP, while Liberia had a percentage of 192.4%.  
 
-### Scatter Plot (Low Population)
+## Scatter Plots 
+### Using Tableau (Low Population)
 ![](scatter plot 1.jpg)  
 
 * Columns: Population  
@@ -39,8 +56,16 @@ output: html_document
 * Japan's Real GDP rate increased more significatly than any other country in this population range.  
 * Pakistan and Indonisia's population rate are continuing to grow, while their economies did not not expand as much as the other countries.  
 
-### Scatter Plot (High Population)
+### Using R
+```{r tidy = TRUE}
+source("../01 Data/scatterplot.R", echo = TRUE)
+```
+
+
+### Something extra! (High Population)
 ![](scatter plot 2.jpg)  
+
+**We found some interesting differences in GDP growth between countries with low populations and countries with high population, and decided to include it here.
 
 * Columns: Population  
 * Rows: Real GDP  
@@ -51,7 +76,9 @@ output: html_document
 * India and China's Real GDP and population grew immensely in the 21st century.  
 * China's Real GDP has doubled in the past decade.  
 
-### Cross Tab  
+
+## Cross Tabs
+### Using Tableau  
 ![](cross tab.jpg)  
 
 * Columns: Year  
@@ -66,10 +93,28 @@ output: html_document
 * Azerbaijan's real gross domestic income tripled in under a decade.  
 * Belarus' real gross domestic income doubled in under a decade.  
 
+### Using R
+```{r tidy = TRUE}
+source("../01 Data/cross_tab.R", echo = TRUE)
+```
 
 ### Calculated Fields and Parameters
 * Examples of the setting and adjustments used to create the visualizations.  
 ![](KPI and parameters.jpg)    
+
+
+## Blending Data Sources
+### Using Tableau
+![](blended_data.jpg)
+
+### Using R
+![](blended_data_R.jpg)
+
+*The new columns start with "Country_Isocode"
+
+```{r tidy = TRUE}
+source("../01 Data/blended_data.R", echo = TRUE)
+```
 
 Citation:
 https://app.enigma.io/table/edu.upenn.econ.pwt?row=0&col=30&page=1
